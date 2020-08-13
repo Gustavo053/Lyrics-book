@@ -69,19 +69,39 @@ label:active:after {
 }
 
 .width-brazil {
-	width: 2.3%;
+	width: 4%;
 }
 
 .width-usa {
-	width: 3%;
+	width: 5%;
 }
 
-@media (max-width: 376px) {
+@media (max-width: 975px) {
 	.width-brazil {
-		width: 10%;
+		width: 5%;
 	}
 
 	.width-usa {
-		width: 13%;
+		width: 7%;
+	}
+}
+
+@media (max-width: 770px) {
+	.width-brazil {
+		width: 6%;
+	}
+
+	.width-usa {
+		width: 8%;
+	}
+}
+
+@media (max-width: 500px) {
+	.width-brazil {
+		width: 9%;
+	}
+
+	.width-usa {
+		width: 12%;
 	}
 }
